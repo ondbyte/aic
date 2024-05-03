@@ -5,6 +5,7 @@ go 1.22.0
 require (
 	github.com/ollama/ollama v0.1.32
 	github.com/ondbyte/ogo v0.0.1
+	github.com/spf13/viper v1.18.2
 )
 
 require (
@@ -28,7 +29,6 @@ require (
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/spf13/viper v1.18.2 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
@@ -38,3 +38,5 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/ondbyte/ogo => /home/yadhunandan/code_2/ogo
